@@ -81,7 +81,13 @@
       {
         "group": "Payments & Retail",
         "icon": "credit-card",
-        "pages": []
+        "pages": [
+          "guide/client-balances",
+          "guide/staff-commissions",
+          "guide/gift-cards",
+          "guide/inventory",
+          "guide/loyalty-programmes"
+        ]
       },
       {
         "group": "Communication & Growth",
