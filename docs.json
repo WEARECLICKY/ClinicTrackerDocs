@@ -58,12 +58,25 @@
       {
         "group": "Scheduling",
         "icon": "calendar-clock",
-        "pages": []
+        "pages": [
+          "guide/online-booking",
+          "guide/waitlist",
+          "guide/booking-api"
+        ]
       },
       {
         "group": "Clinical Records",
         "icon": "stethoscope",
-        "pages": []
+        "pages": [
+          "guide/consultations",
+          "guide/recall-reminders",
+          "guide/treatment-protocols",
+          "guide/consent-forms",
+          "guide/aftercare-forms",
+          "guide/photo-library",
+          "guide/adverse-events",
+          "guide/prescriptions"
+        ]
       },
       {
         "group": "Payments & Retail",
