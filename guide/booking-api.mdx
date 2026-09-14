@@ -1,0 +1,25 @@
+---
+title: "Booking API"
+description: "Connect external booking systems like WordPress to your clinic calendar"
+---
+
+## Overview
+
+ClinicTracker provides a secure API that lets external booking systems create bookings directly in your calendar.
+
+## API key management
+
+Generate API keys in Settings under the Booking API section. Each key is stored as a SHA-256 hash for security.
+
+<Warning>Copy and save your API key immediately after generation. It is shown only once.</Warning>
+
+## API actions
+
+- **config** — returns available treatments and clinic details
+- **slots** — returns available time slots for a given date and treatment
+- **book** — creates the appointment, matches or creates the client, generates an invoice
+- **balances** — returns gift card balances and loyalty enrolments
+
+<Tip>Generate a separate API key for each external system.</Tip>
+
+<CardGroup cols={2}><Card title="Online Booking" icon="globe" href="/guide/online-booking">ClinicTracker's built-in booking widget.</Card><Card title="Settings" icon="settings" href="/guide/settings">Manage API keys.</Card></CardGroup>

@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "ClinicTracker",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0f766e",
+    "light": "#14b8a6",
+    "dark": "#115e59"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -21,17 +21,137 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Support Team",
+          "icon": "life-buoy",
+          "href": "/support-team/overview"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Troubleshooting",
+          "icon": "help-circle",
+          "href": "/troubleshooting/faq"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "index",
+          "quickstart",
+          "guide/roles-and-permissions",
+          "guide/navigation-tour"
+        ]
+      },
+      {
+        "group": "Daily Operations",
+        "icon": "calendar",
+        "pages": [
+          "guide/dashboard",
+          "guide/calendar",
+          "guide/clients",
+          "guide/client-detail",
+          "guide/point-of-sale",
+          "guide/treatment-log"
+        ]
+      },
+      {
+        "group": "Clinical Records",
+        "icon": "stethoscope",
+        "pages": [
+          "guide/consultations",
+          "guide/consent-forms",
+          "guide/aftercare-forms",
+          "guide/photo-library",
+          "guide/recall-reminders",
+          "guide/adverse-events",
+          "guide/treatment-protocols",
+          "guide/prescriptions"
+        ]
+      },
+      {
+        "group": "Scheduling",
+        "icon": "calendar-clock",
+        "pages": [
+          "guide/online-booking",
+          "guide/waitlist",
+          "guide/booking-api"
+        ]
+      },
+      {
+        "group": "Payments & Retail",
+        "icon": "credit-card",
+        "pages": [
+          "guide/invoices",
+          "guide/pricing",
+          "guide/client-balances",
+          "guide/staff-commissions",
+          "guide/gift-cards",
+          "guide/loyalty-programmes",
+          "guide/inventory"
+        ]
+      },
+      {
+        "group": "Communication & Growth",
+        "icon": "megaphone",
+        "pages": [
+          "guide/messaging",
+          "guide/reviews",
+          "guide/referrals",
+          "guide/segments",
+          "guide/automations"
+        ]
+      },
+      {
+        "group": "Compliance & Regulatory",
+        "icon": "shield",
+        "pages": [
+          "guide/audit-trail",
+          "guide/data-retention",
+          "guide/data-export",
+          "guide/licences",
+          "guide/pom-workflow",
+          "guide/registers"
+        ]
+      },
+      {
+        "group": "Administration",
+        "icon": "settings",
+        "pages": [
+          "guide/staff-and-locations",
+          "guide/reports",
+          "guide/import",
+          "guide/public-clinic-page",
+          "guide/settings",
+          "guide/account-and-billing"
+        ]
+      },
+      {
+        "group": "Support Team Guide",
+        "icon": "life-buoy",
+        "pages": [
+          "support-team/overview",
+          "support-team/overview",
+          "support-team/staff-management",
+          "support-team/support-requests",
+          "support-team/organisation-management",
+          "support-team/impersonation",
+          "support-team/messaging-management"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "help-circle",
+        "pages": [
+          "troubleshooting/booking-issues",
+          "troubleshooting/common-issues",
+          "troubleshooting/login-and-access",
+          "troubleshooting/faq",
+          "troubleshooting/faq",
+          "troubleshooting/payments-and-billing"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -41,13 +161,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@clinictracker.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Sign in",
+      "href": "https://app.clinictracker.com/signin"
     }
   },
   "contextual": {
@@ -64,9 +184,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://twitter.com/clinictracker",
+      "linkedin": "https://linkedin.com/company/clinictracker"
     }
   }
 }
