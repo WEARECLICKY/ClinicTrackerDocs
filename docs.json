@@ -160,13 +160,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@clinictracker.com"
+        "href": "mailto:support@clinictracker.co.uk"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Sign in",
-      "href": "https://app.clinictracker.com/signin"
+      "href": "https://app.clinictracker.co.uk/"
     }
   },
   "contextual": {
@@ -186,5 +186,6 @@
       "x": "https://twitter.com/clinictracker",
       "linkedin": "https://linkedin.com/company/clinictracker"
     }
-  }
+  },
+  "description": "Practice management and clinical records for UK aesthetic, laser and skin clinics."
 }
