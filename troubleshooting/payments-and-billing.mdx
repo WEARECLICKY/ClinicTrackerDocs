@@ -1,0 +1,29 @@
+---
+title: "Payments & Billing Issues"
+description: "Solutions for payment processing, Stripe, and billing problems"
+---
+
+## Card payment fails at the POS
+
+1. Verify both Stripe keys are entered
+2. Ensure you're in live mode
+3. Click Validate
+4. Try a different card
+
+## BNPL options not appearing
+
+1. Check BNPL providers are configured in Settings
+2. Verify they're in live mode
+3. Validate the connections
+
+## Online payment fails during booking
+
+1. Check Stripe is in live mode
+2. Check the treatment price is greater than zero
+3. Check your Stripe account is active
+
+## Subscription shows Past Due
+
+A recent payment failed. Go to Account & Billing and update your payment method.
+
+<CardGroup cols={2}><Card title="Point of Sale" icon="credit-card" href="/guide/point-of-sale">How to use the POS.</Card><Card title="Settings" icon="settings" href="/guide/settings">Configure Stripe.</Card></CardGroup>

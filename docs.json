@@ -62,43 +62,92 @@
           "guide/consultations",
           "guide/consent-forms",
           "guide/aftercare-forms",
-          "guide/photo-library"
+          "guide/photo-library",
+          "guide/recall-reminders",
+          "guide/adverse-events",
+          "guide/treatment-protocols",
+          "guide/prescriptions"
         ]
       },
       {
         "group": "Scheduling",
         "icon": "calendar-clock",
-        "pages": []
+        "pages": [
+          "guide/online-booking",
+          "guide/waitlist",
+          "guide/booking-api"
+        ]
       },
       {
         "group": "Payments & Retail",
         "icon": "credit-card",
-        "pages": []
+        "pages": [
+          "guide/invoices",
+          "guide/pricing",
+          "guide/client-balances",
+          "guide/staff-commissions",
+          "guide/gift-cards",
+          "guide/loyalty-programmes",
+          "guide/inventory"
+        ]
       },
       {
         "group": "Communication & Growth",
         "icon": "megaphone",
-        "pages": []
+        "pages": [
+          "guide/messaging",
+          "guide/reviews",
+          "guide/referrals",
+          "guide/segments",
+          "guide/automations"
+        ]
       },
       {
         "group": "Compliance & Regulatory",
         "icon": "shield",
-        "pages": []
+        "pages": [
+          "guide/audit-trail",
+          "guide/data-retention",
+          "guide/data-export",
+          "guide/licences",
+          "guide/pom-workflow",
+          "guide/registers"
+        ]
       },
       {
         "group": "Administration",
         "icon": "settings",
-        "pages": []
+        "pages": [
+          "guide/staff-and-locations",
+          "guide/reports",
+          "guide/import",
+          "guide/public-clinic-page",
+          "guide/settings",
+          "guide/account-and-billing"
+        ]
       },
       {
         "group": "Support Team Guide",
         "icon": "life-buoy",
-        "pages": []
+        "pages": [
+          "support-team/overview",
+          "support-team/staff-management",
+          "support-team/support-requests",
+          "support-team/organisation-management",
+          "support-team/impersonation",
+          "support-team/messaging-management"
+        ]
       },
       {
         "group": "Troubleshooting",
         "icon": "help-circle",
-        "pages": []
+        "pages": [
+          "troubleshooting/booking-issues",
+          "troubleshooting/common-issues",
+          "troubleshooting/login-and-access",
+          "troubleshooting/faq",
+          "troubleshooting/payments-and-billing"
+        ]
       }
     ]
   },

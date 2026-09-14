@@ -1,0 +1,24 @@
+---
+title: "Booking Issues"
+description: "Solutions for online booking, calendar, and booking API problems"
+---
+
+## Online booking shows no available slots
+
+1. Check opening hours are configured
+2. Check practitioner availability
+3. Check at least one practitioner is qualified
+4. Check the minimum notice period
+5. Check existing bookings haven't filled all slots
+
+## Booking API returns errors
+
+1. Verify the API key is correct
+2. Check the key hasn't been revoked
+3. Ensure the key is sent in the X-API-Key header
+
+## Appointment shows wrong time
+
+Check time zones, verify the appointment times, and consider daylight saving changes.
+
+<CardGroup cols={2}><Card title="Online Booking" icon="globe" href="/guide/online-booking">Configure your booking widget.</Card><Card title="Booking API" icon="code" href="/guide/booking-api">Technical details for the API.</Card></CardGroup>

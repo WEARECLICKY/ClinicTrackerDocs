@@ -1,0 +1,26 @@
+---
+title: "Recall Reminders"
+description: "Automatically track when clients are due for follow-up treatments and send reminders"
+---
+
+## Overview
+
+The Recall Reminders system tracks when each client is due for a repeat treatment based on their treatment history and recall intervals.
+
+## Recall statuses
+
+| Status | Colour | Meaning |
+|--------|--------|---------|
+| Pending | Blue | Reminder not yet sent |
+| Overdue | Red | Past the due date |
+| Sent | Teal | Reminder has been sent |
+| Booked | Green | Client has booked a follow-up |
+| Skipped | Grey | Manually skipped |
+
+## Generating reminders
+
+For overdue or pending recalls, select clients and send reminders by email or SMS.
+
+<Tip>Set realistic recall intervals based on the typical treatment cycle.</Tip>
+
+<CardGroup cols={2}><Card title="Treatment Log" icon="activity" href="/guide/treatment-log">Logging treatments creates recalls automatically.</Card><Card title="Messaging" icon="message-square" href="/guide/messaging">Send recall reminders by email or SMS.</Card></CardGroup>
