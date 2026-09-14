@@ -131,6 +131,7 @@
         "icon": "life-buoy",
         "pages": [
           "support-team/overview",
+          "support-team/overview",
           "support-team/staff-management",
           "support-team/support-requests",
           "support-team/organisation-management",
@@ -145,6 +146,7 @@
           "troubleshooting/booking-issues",
           "troubleshooting/common-issues",
           "troubleshooting/login-and-access",
+          "troubleshooting/faq",
           "troubleshooting/faq",
           "troubleshooting/payments-and-billing"
         ]
