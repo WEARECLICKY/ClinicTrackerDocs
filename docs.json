@@ -21,17 +21,86 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Support Team",
+          "icon": "life-buoy",
+          "href": "/support-team/overview"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Troubleshooting",
+          "icon": "help-circle",
+          "href": "/troubleshooting/faq"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "index",
+          "quickstart",
+          "guide/roles-and-permissions",
+          "guide/navigation-tour"
+        ]
+      },
+      {
+        "group": "Daily Operations",
+        "icon": "calendar",
+        "pages": [
+          "guide/dashboard",
+          "guide/calendar",
+          "guide/clients",
+          "guide/client-detail",
+          "guide/point-of-sale",
+          "guide/treatment-log"
+        ]
+      },
+      {
+        "group": "Clinical Records",
+        "icon": "stethoscope",
+        "pages": [
+          "guide/consultations",
+          "guide/consent-forms",
+          "guide/aftercare-forms",
+          "guide/photo-library"
+        ]
+      },
+      {
+        "group": "Scheduling",
+        "icon": "calendar-clock",
+        "pages": []
+      },
+      {
+        "group": "Payments & Retail",
+        "icon": "credit-card",
+        "pages": []
+      },
+      {
+        "group": "Communication & Growth",
+        "icon": "megaphone",
+        "pages": []
+      },
+      {
+        "group": "Compliance & Regulatory",
+        "icon": "shield",
+        "pages": []
+      },
+      {
+        "group": "Administration",
+        "icon": "settings",
+        "pages": []
+      },
+      {
+        "group": "Support Team Guide",
+        "icon": "life-buoy",
+        "pages": []
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "help-circle",
+        "pages": []
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
