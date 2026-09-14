@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "ClinicTracker",
+  "theme": "willow",
+  "name": "Clinic Tracker Docs",
   "colors": {
     "primary": "#0f766e",
     "light": "#14b8a6",
@@ -10,29 +10,6 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Support Team",
-          "icon": "life-buoy",
-          "href": "/support-team/overview"
-        },
-        {
-          "anchor": "Troubleshooting",
-          "icon": "help-circle",
-          "href": "/troubleshooting/faq"
-        }
-      ]
-    },
-    "groups": [
       {
         "group": "Getting Started",
         "icon": "rocket",
@@ -150,12 +127,34 @@
           "troubleshooting/faq",
           "troubleshooting/payments-and-billing"
         ]
+      },
+      "untitled-page",
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Support Team",
+          "icon": "life-buoy",
+          "href": "/support-team/overview"
+        },
+        {
+          "anchor": "Troubleshooting",
+          "icon": "help-circle",
+          "href": "/troubleshooting/faq"
+        }
+      ]
+    }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logo_white.svg",
+    "dark": "/images/logo_black.svg"
   },
   "navbar": {
     "links": [
